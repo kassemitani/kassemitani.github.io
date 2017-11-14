@@ -1,0 +1,56 @@
+main {
+  margin-left: 25vw;
+  padding: 10vh 10vw;
+  background-color: #F5F5F5;
+  height: 100vh;
+  -webkit-transition:width 300ms ease-in-out, height 300ms ease-in-out;
+  -moz-transition:width 300ms ease-in-out, height 300ms ease-in-out;
+  -o-transition:width 300ms ease-in-out, height 300ms ease-in-out;
+  transition:width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+main.opened{
+  margin-left: 15vw;
+  padding: 10vh 10vw;
+  padding-right: 30vw;
+}
+
+main .main-container {
+  padding: 5vmin;
+  background-color: #FFFFFF;
+  text-align: justify;
+}
+
+main .main-container .rsc-ts-bubble {
+  text-align: left;
+}
+
+p {
+  font-size: 2vw;
+  line-height: 1.5;
+}
+
+.docs .title {
+  font-size: 3vw;
+}
+
+.docs .description {
+  font-size: 2.4vw;
+}
+
+@media screen and (max-width: 765px) {
+  main {
+    margin: 0;
+    padding: 24px;
+  }
+  p {
+    font-size: 4vw;
+  }
+  .docs .title {
+    font-size: 5vw;
+  }
+
+  .docs .description {
+    font-size: 4.5vw;
+  }
+}

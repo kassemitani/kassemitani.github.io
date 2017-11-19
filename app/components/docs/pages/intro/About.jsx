@@ -16,7 +16,7 @@ const About = () => (
       </p>
     </blockquote>
     <p>
-      My name is Kassem Loh Wei Chen and I’m a full-stack web developer graduate from the General Assembly Web Development Immersive. I grew up in Singapore and graduated with a B.Soc.Sci.(Hons) in Economics from the National University of Singapore (NUS) and had worked previous stints as a data analyst, product development and logistics.
+      My name is Kassem and I’m a Mobile app developer. I grew up in Lebanon and graduated with a Bachelor Degree in Information technology from the Lebanese International University (Beirut Campus).
     </p>
     <p>
       Ultimately, it was a fateful decision to take up a role as the community manager in a local makerspace where I had made many friends from the ever-supportive tech community that has set me on this path to pursuing tech. In this role, I was a hybrid mix of community influencer, technologist, artist and innovator.

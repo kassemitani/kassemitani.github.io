@@ -8,7 +8,6 @@ import menu from '../../menu'
 // custom chatbot components
 import AboutRoute from '../../components/redirect/AboutRoute'
 import SkillsRoute from '../../components/redirect/SkillsRoute'
-import CausesRoute from '../../components/redirect/CausesRoute'
 import ContactRoute from '../../components/redirect/ContactRoute'
 import ProjectRoute from '../../components/redirect/ProjectRoute'
 

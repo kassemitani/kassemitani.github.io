@@ -2,7 +2,6 @@ import React from 'react';
 // Intro
 import Intro from './components/docs/pages/intro/Intro';
 import About from './components/docs/pages/intro/About';
-import Causes from './components/docs/pages/intro/Causes';
 // Examples
 import Project1 from './components/docs/pages/examples/Project1';
 import Project2 from './components/docs/pages/examples/Project2';
@@ -41,11 +40,6 @@ const menu = {
           title: 'My Story',
           description: '',
           component: <About />,
-        },
-        {
-          href: '/causes',
-          title: 'Causes I Love',
-          component: <Causes />,
         },
       ],
     },

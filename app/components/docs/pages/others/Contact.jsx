@@ -26,7 +26,7 @@ const Contact = () => (
     </p>
     <p className='tagline'>
       You can find my CV
-      <a href='http://bit.ly/hireseth'><strong><u> here</u></strong></a>
+      <a href='http://kassemitani.com/cv.pdf'><strong><u> here</u></strong></a>
     </p>
   </div>
 );

@@ -1,0 +1,99 @@
+.skills-container a:link {
+   color: rgba(0,0,0,1);
+}
+
+.skills-container a:hover {
+   opacity: 0.5;
+}
+
+.skills-container {
+  text-align: center;
+}
+
+.skills-container h3 {
+  font-size: 2vw;
+  margin-bottom: 20px;
+}
+
+.horizontal-list {
+	min-width: 100px;
+	list-style: none;
+	padding: 20px;
+  margin: 0 auto;
+}
+
+.horizontal-list li {
+	display: inline-block;
+  padding: 0 1vw;
+}
+
+.horizontal-list li i {
+  font-size: 4em;
+}
+
+.horizontal-list li p {
+  max-width: 100%;
+  font-size: 2.5vmin;
+}
+
+.skills-current .horizontal-list li {
+  max-width: 150px
+}
+
+.skills-current .horizontal-list li p{
+  font-size: 2em;
+}
+
+.skills-center {
+  text-align: center;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-10px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@keyframes grow {
+	0% {
+    background-color: rgba(0,0,0,0.4);
+	}
+	50% {
+    transform: scale(2,2);
+    background-color: rgba(0,0,0,0.002);
+	}
+	100% {
+    background-color: rgba(0,0,0,0.4);
+	}
+}
+
+.current-image-container {
+  padding: 1vmin;
+  box-sizing: border-box;
+}
+
+.shadow {
+  margin: 0 auto;
+  height: 8px;
+  width: 20%;
+  border-radius: 100%;
+  background-color: rgba(0,0,0,0.4);
+  animation: grow 2s ease-in-out infinite;
+}
+
+img.levitate {
+	box-sizing: border-box;
+	border: 5px white solid;
+	overflow: hidden;
+	/*box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+	transform: translatey(0px);
+	animation: float 2s ease-in-out infinite;
+  width: 90%;
+  height: auto;
+}

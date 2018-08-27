@@ -113,12 +113,9 @@ const designSkills = [
 const About = () => (
   <div className='docs-installation'>
     <p>
-      Hello! I'm Kassem Itani, An	ambitious developer	with	a	real	passion	for	mobile	app	development.	Embracing	cutting	edge	technology,
-I	have	gained	an	in-depth	understanding	of the	different mobile	platforms.
-    </p>
-    <p>
-    Having	helped	develop	successful	mobile apps	on	cross platforms including IOS,	Android,
-    Blackberry	10,	feature phones (J2ME).
+      Hello! I'm Kassem Itani, Experienced mobile app developer who has a track record of success creating apps that are both well-received and commercially viable. 
+      Skilled with working as a team and incorporating input into projects. Ability to always look for ways to improve upon an already existing app to keep people downloading it and enjoying it. 
+      Strong eye for detail and tenacity to never quit on something until it is absolutely perfect.
     </p>
     <div className='skills-container'>
       <div className='skills-current'>

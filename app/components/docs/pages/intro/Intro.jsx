@@ -23,9 +23,9 @@ const current = [
     description: ''
   },
   {
-    name: 'Titanium',
+    name: 'React Native',
     type: 'PropTypes.string',
-    icon: 'devicon-appcelerator-plain colored',
+    icon: 'devicon-react-plain colored',
     href: '',
     defaultValue: '',
     description: ''
